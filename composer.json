@@ -2,6 +2,13 @@
     "name": "vertexcoreai/helpers",
     "type": "library",
     "description": "Simple helper functions for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your-email@example.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Vertexcore\\Helpers\\": "src/"
@@ -20,5 +27,7 @@
                 "Vertexcore\\Helpers\\HelpersServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
